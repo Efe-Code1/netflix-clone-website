@@ -25,7 +25,8 @@ body {
 }
 
 .nav-black {
-    background-color: #111;
+    background-color: black;
+    height: 4vw;
 }
 
 .nav-logo{
@@ -35,7 +36,7 @@ body {
 }
 
 .banner{
-    background-image: url(images/banner.jpg);
+    background-image: url(images/banner.jpeg);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -92,7 +93,7 @@ body {
     object-fit: contain;
     max-height: 100px;
     margin-right: 10px;
-    transition: transform 450ms;
+    transition: transform 500ms;
 }
 
 .row-posters{
@@ -121,6 +122,12 @@ body {
 
 
 @media screen and (max-width:1000px) {
+    .nav-black {
+        background-color: black;
+        height: 10vw;
+    }
+
+
     .banner-description{
         line-height: 1.9;
         padding-top: 1rem;
@@ -128,7 +135,6 @@ body {
         max-width: 350px;
         height: 180px;
     }
-
 
     .banner-title{
         font-size: xx-large;
