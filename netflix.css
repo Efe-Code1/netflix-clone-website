@@ -206,7 +206,7 @@ img{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 12000px) {
     .showcase{
         width: 100%;
         position: relative;
@@ -279,10 +279,14 @@ img{
         left: 0%;
         width: 100%;
     }
-    
-    .nav-black {
-        background-color: black;
-        height: 10vw;
+
+    .row-poster{
+        max-height: 150px;
     }
+
+    .row-posterLarge{
+        max-height: 250px;
+    }
+    
 
 }
